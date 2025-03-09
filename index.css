@@ -1,6 +1,5 @@
 /* ヘッダー */
 header {
- 
   color: #fff;
 }
 .header-logo {
@@ -12,8 +11,7 @@ header {
 .header-list li {
   list-style: none;
   font-size: 15px;
-  padding:0px 550px;
-
+  padding: 0px 550px;
 }
 
 /* 背景 */
@@ -26,4 +24,13 @@ body {
 /* フッター */
 footer {
   height: 270px;
+  color: #fff;
+  text-align: center;
+}
+li {
+  list-style-type: none;
+}
+
+li img{
+  width: 25px;
 }
