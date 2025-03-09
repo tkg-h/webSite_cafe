@@ -1,35 +1,35 @@
 /* ヘッダー */
 header {
   color: #fff;
+  text-align: center;
+  padding: 20px;
+  display: flex;
 }
 .header-logo {
-  font-size: 45px;
+  font-size: 60px;
   font-weight: 100;
-
-  letter-spacing: 2em;
+  letter-spacing: 0.8em;
+ 
 }
-
-.header-list li {
-  list-style: none;
-  font-size: 15px;
-  text-align: center;
-
-}
-li a{
-  color:#fff;
-  text-decoration:none;
+header img {
+  width: 20px;
+  margin: 45px auto;
+  
 }
 
 /* 背景 */
 body {
-  font-family: 游ゴシック;
+  font-family: "游ゴシック", sans-serif;
   background-color: #222933;
-  margin: 20px;
+  margin: 0;
+  padding: 0;
 }
-/*メイン*/
+
+/* メイン */
 .centerSlide {
   width: 80%;
-  margin: 40px 110px;
+  margin: 40px auto;
+  text-align: center;
 }
 
 /* フッター */
@@ -37,11 +37,15 @@ footer {
   height: 270px;
   color: #fff;
   text-align: center;
+  padding-top: 20px;
+  text-decoration: none;
 }
 li {
-  list-style-type: none;
+  list-style: none;
+  text-decoration: none;
 }
 
-li img {
+.footer-info img {
   width: 25px;
+  padding-top: 10px;
 }
