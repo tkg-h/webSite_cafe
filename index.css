@@ -1,0 +1,30 @@
+/* ヘッダー */
+header {
+ 
+  color: #fff;
+}
+.header-logo {
+  font-size: 45px;
+  font-weight: 100;
+  text-align: center;
+}
+
+.header-list li {
+  list-style: none;
+  font-size: 15px;
+  padding:0px 550px;
+
+}
+
+/* 背景 */
+body {
+  font-family: 游ゴシック;
+  background-color: #172646;
+  margin: 20px;
+}
+/*メイン*/
+
+/* フッター */
+footer {
+  height: 270px;
+}
