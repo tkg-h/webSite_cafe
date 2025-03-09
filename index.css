@@ -5,25 +5,31 @@ header {
 .header-logo {
   font-size: 45px;
   font-weight: 100;
-  text-align: center;
+
+  letter-spacing: 2em;
 }
 
 .header-list li {
   list-style: none;
   font-size: 15px;
-  padding: 0px 550px;
+  text-align: center;
+
+}
+li a{
+  color:#fff;
+  text-decoration:none;
 }
 
 /* 背景 */
 body {
   font-family: 游ゴシック;
-  background-color: #172646;
+  background-color: #222933;
   margin: 20px;
 }
 /*メイン*/
 .centerSlide {
   width: 80%;
-  margin: auto;
+  margin: 40px 110px;
 }
 
 /* フッター */
